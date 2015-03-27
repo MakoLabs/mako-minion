@@ -1,0 +1,39 @@
+{
+  "name": "mako-minion",
+  "version": "0.1.0",
+  "description": "Shared nothing minion for Mako, a fast and easy to install PaaS",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakoLabs/mako-minion.git"
+  },
+  "keywords": [
+    "devops",
+    "paas"
+  ],
+  "author": "@travellperkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakoLabs/mako-minion/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "request": "~2.22.0",
+    "mkdirp": "~0.5.0"
+  },
+  "dependencies": {
+    "debug": "^2.1.1",
+    "debug-levels": "^0.2.0",
+    "findit": "~1.2.0",
+    "gift": "~0.4.1",
+    "hogan": "^1.0.2",
+    "mu2": "~0.5.19",
+    "rimraf": "~2.2.1",
+    "shelljs": "^0.3.0",
+    "ws": "~0.4.27"
+  }
+}

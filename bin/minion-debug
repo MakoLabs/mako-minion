@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+process.env.DEBUG='*';
+process.env.DEBUG_LEVEL='verbose';
+require('../index.js');
